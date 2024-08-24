@@ -14,7 +14,7 @@ Type
 print("Hello World")
 ```
 
-Press Enter (for EDLE) Or Run (Jupyter Notebook).
+Press Enter (for IDLE) Or Run (Jupyter Notebook).
 
 The output will be -
 Hello World
