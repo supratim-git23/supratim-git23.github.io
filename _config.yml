@@ -16,10 +16,10 @@ timezone: Asia/Kolkata
 
 title: Supratim Chakraborty # the main title
 
-tagline: Computer Scientist -Discussion on AI/ML and Data Science # it will display as the sub-title
+tagline: Computer Scientist -Blog for discussing  AI/ML, Data Science and Cybersecurity # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  AI , CS and Data science discussion
+  AI, ML , Cybersecurity and Data science discussion
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
