@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Python F-Strings- A sophisticated way of Printing
-date: 22-08-2024
+title: A sophisticated way of Printing in Python
+date: 16-02-2025
 categories: [documentations]
 tag: [like,comment,subscribe]
 ---
