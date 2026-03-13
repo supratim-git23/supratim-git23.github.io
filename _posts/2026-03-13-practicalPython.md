@@ -536,8 +536,9 @@ plt.show()
 
 
     
-![png](output_14_0.png)
-    
+
+    <img width="543" height="433" alt="output_14_0" src="https://github.com/user-attachments/assets/aed9f829-2a89-48ab-b0ba-f2f25ba0948b" />
+
 
 
 
@@ -605,9 +606,8 @@ plt.show()
     
 
 
-    
-![png](output_15_1.png)
-    
+        
+<img width="580" height="453" alt="output_15_1" src="https://github.com/user-attachments/assets/387f240c-5744-4f91-9d5e-9aa8aae99f07" />
 
 
 
