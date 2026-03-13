@@ -1,5 +1,10 @@
-
-
+---
+layout: post
+title: Some Practical program implemented in Python 3.12, can be used for AI/ML
+date: 13-03-2026
+categories: [documentations]
+tag: [like,comment,subscribe]
+---
 
 
 
