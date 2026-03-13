@@ -94,6 +94,7 @@ else:
 
 
 ```python
+# Euclidean distance calculation
 import math
 
 # input coordinates
@@ -537,7 +538,8 @@ plt.show()
 
     
 
-    <img width="543" height="433" alt="output_14_0" src="https://github.com/user-attachments/assets/aed9f829-2a89-48ab-b0ba-f2f25ba0948b" />
+   
+<img width="543" height="433" alt="output_14_0" src="https://github.com/user-attachments/assets/f3a16e7d-892c-4420-b6b6-e9a5234a33ec" />
 
 
 
