@@ -1,53 +1,422 @@
+# Python Programming: CBSE Class 10 Practical
 
 
+1)	Write a program to add the elements of the two lists.
+2)	Write a program to calculate mean median and mode using NumPy.
+3)	Write a program to display line chart from (2,4) to (6,7).
+4)  Write a program to display horizontal bar chart.
+5)  Write a program to display vertical bar chart.
+6)	Write a program to display scatter plot for some points.
+7)	Read the csv file saved in your system and display its information.
+8)	Read the csv file saved in your system and display 10 rows.
+9)	Write a program to read an image and display.
+10)	Write a program to read an image and display its shape.
 
-![ai2](https://github.com/user-attachments/assets/f2f8ad32-2379-481b-986a-bda84f270127)
+Code 1: Write a program to add the elements of the two lists.(Process -1)
 
-# কৃত্রিম বুদ্ধিমত্তা এবং আধুনিক সমাজ : আশা ও আশঙ্খা 
- 
-আজকের সমাজে, আমরা বেশিরভাগই কম্পিউটারগুলির উপর ব্যাপকভাবে নির্ভরশীল হয়ে পড়েছি। কম্পিউটার আমাদের দৈনন্দিন জীবনে গুরুত্বপূর্ণ ভূমিকা পালন করে এবং অনেক উপকারিতা প্রদান করে। এরপর এসেছে মোবাইল ফোন (এখন স্মার্টফোন), যা এর বহুমুখী ব্যবহার এবং কার্যকারিতার মাধ্যমে আমাদের জীবনকে আরও উন্নত করেছে। কম্পিউটার এবং স্মার্টফোনের জন্য, আমরা সময় এবং টাকা সঞ্চয় করতে সক্ষম হয়েছি এবং আমাদের অনেক কাজকে উদ্ভাবনী, সৃজনশীল এবং দৃশ্যত আকর্ষণীয় উদ্যোগে রূপান্তরিত করতে সক্ষম হয়েছি।
- 
-তবে, এটি মনে রাখা গুরুত্বপূর্ণ যে, যেমন প্রতিটি আলো একটি ছায়া ফেলেই থাকে— তা সে ছায়া, উপচ্ছায়া বা প্রচ্ছায়া যাই হোক 
-—তেমনি কম্পিউটার এবং স্মার্টফোনের ব্যবহারও সমাজে কিছু নেতিবাচক প্রভাবও ফেলে। তবে, বিস্ময় সীমাহীন! জানার ইচ্ছা অসীম! চলুন, ইতিহাসের পাতা উল্টে ১৯৫০ সালে ফিরে যাই এবং ভাবি, " কম্পিউটারগুলো কি বুদ্ধি ধারণ করে?" অথবা "কোনটি বেশি বুদ্ধিমান—মানুষ না কৃত্রিম বুদ্ধিমত্তা?" অ্যালান টুরিং কম্পিউটার এবং এমনকি মানুষের উপর একটি পরীক্ষা করেছিলেন। ১৯৫৬ সালে "কৃত্রিম বুদ্ধিমত্তা" (AI) শব্দটি তৈরি হয় | এবং প্রথমে ধীরে , আর এখন খুব তড়িৎ গতিতে অগ্রগতি চলতে থাকে। ই-কমার্স, সামাজিক নেটওয়ার্কিং এবং অন্যান্য ক্ষেত্রগুলিতে কৃত্রিম বুদ্ধিমত্তার প্রয়োগগুলি সমাজের সব ক্ষেত্র এবং সব বয়সের উপর ব্যাপক প্রভাব ফেলেছে। আমরা সবাই এই উন্নতিগুলির মাধ্যমে আন্তঃসংযুক্ত। যেমন বাইরের খোসা ফেলে দিলে, ফল তার মিষ্টতায় ভোরে দেয় ; সেরকম আমরা এই পরিবর্তনগুলোকে উচ্ছ্বাসের সাথে গ্রহণ এবং উপভোগ করি। সমাজ আমাদের সাথে এবং আমরা সমাজের সাথে। ২০২২ সালে একটি রূপান্তরমূলক পরিবর্তন ঘটে ChatGPT-এর মাধ্যমে। আপনি একটি প্রশ্ন করেন, এবং এটি একটি উত্তর প্রদান করে! প্রায় সমস্ত তথ্য ভাণ্ডারের মধ্য থেকে, আমাদের প্রশ্নগুলির উত্তর AI নিজেই দেয়। যখন আমরা বলি "এটি প্রদান করে," এটি মেশিন লার্নিং (ML)-এর ব্যবহার কারণে। আকর্ষণীয়ভাবে, এটি কেবল উত্তর প্রদানই করে না, বরং তথ্য যাচাই এবং পরিশুদ্ধও করে। আমরা এমন অনেক প্রশ্নের উত্তর পাচ্ছি, যেগুলি অন্যথায় প্রচুর সময় এবং টাকা খরচ করতে হত।
- 
-বিভিন্ন LLM GPT মডেল এবং অনেক AI-চালিত অ্যাপ্লিকেশনের আগমনের সাথে, আমাদের অবকাঠামো এবং পরিকল্পনা পরিবর্তিত হচ্ছে।
- 
---আমরা এখন শিক্ষা এবং শিক্ষাবিজ্ঞানে উন্নতি করতে পারি, যা আরও গতিশীল এবং উৎপাদনশীল হবে।
---আমরা ভুল-মুক্ত এবং স্বয়ংক্রিয় যন্ত্র তৈরি এবং ব্যবহার করতে পারি।
---আমরা চিকিৎসা ক্ষেত্রে গুরুত্বপূর্ণ পরিবর্তন আনতে সক্ষম হয়েছি।
---বাণিজ্যিক দৃষ্টিকোণ থেকে, খরচ কমেছে, এবং লাভ বেড়েছে।
---বিনোদনে, AI আমাদের সঙ্গীত এবং ভিডিও তৈরি করতে সহায়ক।
---AI বিপর্যয় ব্যবস্থাপনায় সহায়ক, তথ্য সংগ্রহ করে যা অনেক প্রাণ বাঁচাতে সাহায্য করতে পারে।
---এবং, আরও অনেক কিছু, যেমন ভয়েস টাইপিং, ওষুধ উৎপাদন, চিকিৎসা নির্ণয়, এবং মহাকাশ গবেষণা।
 
-AI আমাদের জীবনে এবং আধুনিক সমাজে চমকপ্রদ পরিবর্তন এনেছে। আমাদের সমাজিক অবকাঠামো মৌলিক রূপে রূপান্তরিত হয়েছে। জানি বা না জানি, আমরা এই ব্যবস্থার একটি অংশ হয়ে উঠেছি, আমাদের ডিজিটাল পদচিহ্ন রেখে—ভালো এবং খারাপ—সাইবারস্পেসে। এখন প্রতিটি কাজের ক্ষেত্রেই পরিকল্পনা পুনরায় ভাবা এবং পুনর্গঠন করা প্রয়োজন। ইন্ডাস্ট্রি ৪.০ বিভিন্ন ক্ষেত্রের মধ্যে একটি বিপ্লব প্রতিনিধিত্ব করে। AI সমাজকে উদ্দীপ্ত করেছে কিন্তু এটি প্রতিটি ব্যক্তির জন্য অভিযোজিত হওয়ার এবং বিকশিত হওয়ার একটি চ্যালেঞ্জও প্রদান করে। আমরা, আধুনিক সমাজের মানুষ হিসেবে, "চরৈবেতি " (এগিয়ে চলার) মন্ত্রের সাথে ক্রমাগত বিকশিত হচ্ছি। এই ধরনের পরিবর্তনের সাথে, সমাজকে সতর্ক, সচেতন এবং সুরক্ষিত থাকতে হবে।
+```python
+# Import numpy library
+import numpy as np
 
-তাই, আমাদের কিছু বিষয় বিবেচনা করা উচিত:
+# Input lists
+a = [1, 3, 4, 5, 8]
+b = [2, 5, 6, 4, 10]
 
---আমরা কি কৃত্রিম বুদ্ধিমত্তার অপব্যবহার করছি?
---আমরা কি শুধুমাত্র প্রশ্ন করছি এবং উত্তর মনে রেখে জীবনযাপন করছি, কিন্তু কোন অগ্রগতি ছাড়া?
---আমাদের ডেটা কি নিরাপদ?
---আমরা কি প্রতিষ্ঠিত নীতির অধীনে AI ব্যবহার করছি?
---আমরা কি AI নৈতিকভাবে ব্যবহার করছি?
+# Convert lists to numpy arrays and add them
+c = np.add(a, b)
 
-কিছু উদ্বেগ যা আমাদের এবং সমাজকে কৃত্রিম বুদ্ধিমত্তার ব্যবহারের ক্ষেত্রে মোকাবিলা করতে হবে:
- 
---এটি কি অনেক চাকরি হারিয়ে যাবে?
---আমরা কি সবাইকে AI ব্যবহার করতে বাধ্য করা হবে, আমাদের আর্থিক সক্ষমতা নির্বিশেষে?
---AI সৃষ্টি এবং ব্যবহার কি শুধুমাত্র GPT-ভিত্তিক হবে?
---আমরা কি কৃত্রিম বুদ্ধিমত্তাকে ভুলভাবে সংজ্ঞায়িত করছি?
---এটি কি আমাদের সৃজনশীলতা এবং উদ্ভাবনী ক্ষমতাকে প্রভাবিত করছে?
+# Print the result
+print(c)
+```
 
-অবশেষে, যেমন অনেকেই ভয় পায়, AI কি মানব বুদ্ধিমত্তাকে ছাড়িয়ে যাবে? ভয়টি ১৯৯৭ সালে শুরু হয়েছিল যখন IBM-এর Deep Blue পৃথিবীর সেরা দাবা খেলোয়াড়, গ্যারি কাসপারভকে পরাজিত করেছিল। তারপর থেকে, AI-এর মানব বুদ্ধিমত্তাকে ছাড়িয়ে যাওয়ার বিষয়ে কিছু সন্দেহ এবং উদ্বেগ দেখা দিয়েছে।
- 
-এতক্ষন সবটাই আলোচনা করলাম ইতিবাচক মনোভাব নিয়ে। 
-এখন নেতিবাচক ও খুব আশংখা নেয়া বলছি " ধরে নি , ন্যূনতম ও প্রয়োজনীয় লেখাপড়া না করে , টুল/কম্পিউটার প্রোগ্রাম সম্মন্ধে কিছু না জেনে, অন্যান্য বিষয় গুলিও পড়াশুনা না করে ; - যদি সারা পৃথিবীময় সবাই টুল/সফটওয়্যার বানাই , অনেকে অনেক বিষয়ে গবেষক হয়ে যায় -- কেবল টুকে , কেবল টুকে (পড়বেন GPT ব্যবহার করে , শুধুই GPT ব্যবহার করে) ; তাহলেও ইন্ডাস্ট্রি ৫.০ আসবে। তারপর 2032 / 2035 নাগাদ, এক অজানা অচেনা সংকট তৈরী হতে পারে। প্রচুর সম্পদ (টেকনিকাল) থাকবে , অনেক শিক্ষিত মানুষ থাকবে। কিন্তু ৮০ শতাংশ শিক্ষিত মানুষের রোজকার থাকবে না। 
---- আবার কি পুঁজিবাদী ?
---- আবার কি কৃষিজীবী ? 
-খুব ইচ্ছে করে ইন্ডাস্ট্রি ৭.0 দেখে যেতে।
+    [ 3  8 10  9 18]
+    
 
-তাই বলি আগে শিক্ষিত হন তারপর GPT ব্যবহার করে , প্রশ্নের উত্তর নিয়ে আপনার শিক্ষা নেওয়া বা দেওয়া কে ত্বরান্বিত করুন মাত্র। দয়া করে শুধু ঢুকবেন ন। "
+Code 1: Write a program to add the elements of the two lists.(Process -2)
 
-সবশেষে, কৃত্রিম বুদ্ধিমত্তা একটি বিজ্ঞান যা ভালভাবে অধ্যয়ন এবং ব্যবহার করলে সমাজকে উল্লেখযোগ্যভাবে এগিয়ে নিয়ে যাবে। যেখানে সংস্থাগুলির কার্যকর পরিকল্পনা বা সময়মতো আপডেট নেই, সেখানেই চাকরি হারানোর আশঙ্কা থাকতে পারে, তবে আগের শিল্প বিপ্লবের তুলনায় তা কম হবে। কৃত্রিম বুদ্ধিমত্তার উপর পুরোপুরি নির্ভর না করে, আমাদের উদ্ভাবনী চিন্তা, সৃজনশীলতা এবং গবেষণা ক্ষমতাকে বাড়াতে হবে এবং AI-কে জ্ঞানভিত্তিকভাবে ব্যবহার করতে হবে। সমাজকে এগিয়ে যেতে দিন তার সমস্ত ধাপের সাথে!
- 
 
+```python
+# Input lists
+a = [1, 3, 4, 6, 8]
+b = [4, 5, 6, 2, 10]
+
+# Create an empty list to store the result
+c = []
+
+# Loop through both lists and add corresponding elements
+for i in range(len(a)):
+    c.append(a[i] + b[i])
+
+# Print the result
+print(c)
+```
+
+    [5, 8, 10, 8, 18]
+    
+
+Code 2: Write a program to calculate mean median and mode using NumPy.(Process -1)
+
+
+```python
+import numpy as np
+
+data = np.array([10, 20, 30, 20, 40, 50, 20, 80])
+
+# Mean
+mean = np.mean(data)
+
+# Median
+median = np.median(data)
+
+# Mode
+mode = max(data, key=list(data).count)
+
+print("Mean =", mean)
+print("Median =", median)
+print("Mode =", mode)
+
+```
+
+    Mean = 33.75
+    Median = 25.0
+    Mode = 20
+    
+
+Code 2: Write a program to calculate mean median and mode using NumPy.(Process -2)
+
+
+```python
+import numpy as np
+
+# Create an array of numbers
+data = np.array([10, 20, 30, 20, 40, 50, 20, 80])
+
+# Calculate Mean
+mean = np.mean(data)
+
+# Calculate Median
+median = np.median(data)
+
+# Calculate Mode
+values, counts = np.unique(data, return_counts=True)
+mode = values[np.argmax(counts)]
+
+# Display results
+print("Data:", data)
+print("Mean:", mean)
+print("Median:", median)
+print("Mode:", mode)
+
+```
+
+    Data: [10 20 30 20 40 50 20 80]
+    Mean: 33.75
+    Median: 25.0
+    Mode: 20
+    
+
+## Calculate Mode
+    # NumPy does not provide a direct mode() function. Therefore, we use:
+    # np.unique(data, return_counts=True) – finds unique values and their frequencies.
+    # np.argmax(counts) – finds the position of the highest frequency.
+    # values[...] – retrieves the corresponding mode.
+
+Code 2: Write a program to calculate mean median and mode using NumPy.(Process -3)
+
+
+```python
+import numpy as np
+from scipy import stats as stat
+
+# Create an array of numbers
+data = [10, 20, 30, 20, 40, 50, 20, 80]
+
+# Calculate Mean
+mean = np.mean(data)
+
+# Calculate Median
+median = np.median(data)
+
+# Calculate Mode
+result = stat.mode(data)
+
+print(mean)
+print(median)
+print(result.mode)
+
+# we have to use print(mode_value.mode) as result contains two pieces of information
+    # result.mode – The most frequently occurring value.
+    # result.count – The frequency of that value.
+```
+
+    33.75
+    25.0
+    20
+    
+
+Code 3: Write a program to display line chart from (2,4) to (6,7).
+
+
+```python
+import matplotlib.pyplot as plt
+#import matplotlib.style
+import numpy as np
+
+# Sample data
+x = np.array([2, 6])
+y = np.array([4, 7])
+
+# Create the line chart
+plt.plot(x, y)
+
+# Add labels and title
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.title("Example: Line Chart")
+
+# Display the chart
+plt.grid(True)
+plt.show()
+```
+
+
+    
+![png](output_14_0.png)
+    
+
+
+Its General Syntax-(Code)
+
+
+```python
+import matplotlib.pyplot as plt
+#import matplotlib.style
+import numpy as np
+
+# Sample data
+x = np.array([1, 2, 3, 4, 5])
+y = np.array([11, 24, 21, 45, 23])
+
+# Create the line chart
+plt.plot(x, y)
+
+# Add labels and title
+plt.xlabel("X-axis : item1")
+plt.ylabel("Y-axis : item2")
+plt.title("Example: Line Chart")
+
+# Display the chart
+plt.grid(True)
+plt.show()
+```
+
+
+    
+![png](output_16_0.png)
+    
+
+
+Code 4:Write a program to display horizontal bar chart.
+
+
+```python
+import matplotlib.pyplot as plt
+
+# Data for the bar chart
+categories = ['English', 'Computer Sc', 'Data Sc', 'AI']
+values = [25, 40, 30, 50]
+
+# Create the bar chart
+plt.barh(categories, values)
+
+# Add labels and title
+plt.xlabel('Marks obtained: out of 50')
+plt.ylabel('Categories')
+plt.title('Example Bar Chart')
+
+# Display the chart
+plt.show()
+```
+
+
+    
+![png](output_18_0.png)
+    
+
+
+Code 5:Write a program to display vertical bar chart.
+
+
+```python
+import matplotlib.pyplot as plt
+
+# Data for the bar chart
+categories = ['English', 'Computer Sc', 'Data Sc', 'AI']
+values = [25, 40, 30, 50]
+
+# Create the bar chart
+plt.bar(categories, values)
+
+# Add labels and title
+plt.xlabel('Marks obtained: out of 50')
+plt.ylabel('Categories')
+plt.title('Example Bar Chart')
+
+# Display the chart
+plt.show()
+```
+
+
+    
+![png](output_20_0.png)
+    
+
+
+Code 6: Write a program to display scatter plot for some points.
+
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Generate some sample data
+
+
+x = np.array([1, 2, 3, 4, 5, 6,7])
+y = np.array([11, 24, 21, 45, 23,66,77])
+
+# Create the scatter plot
+plt.scatter(x, y)
+
+# Add labels and a title
+plt.xlabel("X-axis Label")
+plt.ylabel("Y-axis Label")
+plt.title("Simple Scatter Plot")
+
+# Display the plot
+plt.show()
+```
+
+
+    
+![png](output_22_0.png)
+    
+
+
+Code 7: Read the csv file saved in your system and display its information.
+
+
+```python
+import pandas as pd
+#import numpy as np
+
+df = pd.read_csv('C:/test.csv')
+print(df)
+```
+
+         Name  Roll  Math  SC  AI
+    0   Rajit    25    30  42  50
+    1   Rajib    45    35  47  49
+    2   Rohon    26    49  48  48
+    3    Riya    15    46  45  49
+    4   Rajit    25    30  42  50
+    5   Rajib    45    35  47  49
+    6   Rohon    26    49  48  48
+    7    Riya    15    46  45  49
+    8   Rajit    25    30  42  50
+    9   Rajib    45    35  47  49
+    10  Rohon    26    49  48  48
+    11   Riya    15    46  45  49
+    
+
+Code 8: Read the csv file saved in your system and display 10 rows.
+
+
+```python
+#import os
+import pandas as pd
+#import numpy as np
+
+df = pd.read_csv('C:/test.csv')
+print(df.head(10))
+
+```
+
+        Name  Roll  Math  SC  AI
+    0  Rajit    25    30  42  50
+    1  Rajib    45    35  47  49
+    2  Rohon    26    49  48  48
+    3   Riya    15    46  45  49
+    4  Rajit    25    30  42  50
+    5  Rajib    45    35  47  49
+    6  Rohon    26    49  48  48
+    7   Riya    15    46  45  49
+    8  Rajit    25    30  42  50
+    9  Rajib    45    35  47  49
+    
+
+Code 9:Write a program to read an image and display it.
+
+
+```python
+import cv2
+import numpy as np
+
+image = cv2.imread(r"C:\3d.png")
+
+cv2.imshow("My Image", image)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+    
+```
+
+## cv2.imread() – Reads the image file.
+    # cv2.imshow() – Displays the image in a separate window.
+    # cv2.waitKey(0) – Waits until you press a key.
+    # cv2.destroyAllWindows() – Closes all OpenCV windows
+
+Code 10: Write a program to read an image and display its shape.(Process 1)
+
+
+```python
+import cv2
+
+image = cv2.imread(r"C:\3d.png")
+
+print("Image shape:", image.shape)
+
+        # height , width, No. of channels(R,G,B)  
+```
+
+    Image shape: (1536, 1024, 3)
+    
+
+Code 10: Write a program to read an image and display its shape.(Process 2)
+
+
+```python
+import cv2
+
+image = cv2.imread(r"C:\3d.png")
+
+height, width, channels = image.shape
+
+print("Height:", height)
+print("Width:", width)
+print("Channels:", channels)
+```
+
+    Height: 1536
+    Width: 1024
+    Channels: 3
+    
+
+### Description
+Method	                 Example	Validity
+Raw string	         r"C:\3d.png"	Yes
+Double backslash	 "C:\\3d.png"	Yes
+Forward slash	     "C:/3d.png"	Yes
+Single backslash	 "C:\3d.png"	Yes, but potentially problematic
