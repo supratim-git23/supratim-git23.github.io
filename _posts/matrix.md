@@ -1,3 +1,12 @@
+---
+layout: post
+title: Python Programming - CBSE Class 10 Practical
+date: 15-11-2026
+categories: [documentations]
+tag: [like,comment,subscribe]
+---
+
+
 # Python Programming: CBSE Class 10 Practical
 
 
